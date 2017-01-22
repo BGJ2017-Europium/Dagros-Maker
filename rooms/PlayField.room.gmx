@@ -41,18 +41,16 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Budeie" x="192" y="256" name="inst_FC20741D" locked="0" code="" scaleX="0.95604395866394" scaleY="0.821428596973419" colour="4294967295" rotation="0"/>
-    <instance objName="Ku" x="3744" y="1984" name="inst_A0E9FCF9" locked="0" code="" scaleX="0.848739504814148" scaleY="0.651376128196716" colour="4294967295" rotation="0"/>
     <instance objName="Barn" x="3936" y="480" name="inst_23363CDB" locked="0" code="" scaleX="-2.9765625" scaleY="2.6509804725647" colour="4294967295" rotation="0"/>
     <instance objName="Rock" x="2944" y="640" name="inst_B83F44A0" locked="0" code="" scaleX="0.375" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="Rock" x="2624" y="544" name="inst_CD9533BE" locked="0" code="" scaleX="0.625" scaleY="0.625" colour="4294967295" rotation="0"/>
@@ -254,12 +252,12 @@
     <instance objName="Rock" x="928" y="288" name="inst_C32CFB4C" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="Bush" x="1280" y="192" name="inst_AD793C40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Rock" x="1184" y="352" name="inst_D13115D3" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
-    <instance objName="Rock" x="1152" y="832" name="inst_234CAE83" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
-    <instance objName="Rock" x="1152" y="896" name="inst_D33DE0B6" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="Rock" x="1120" y="832" name="inst_234CAE83" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="Rock" x="1120" y="896" name="inst_D33DE0B6" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="Rock" x="1152" y="960" name="inst_B2AF8CC7" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
-    <instance objName="Rock" x="1248" y="960" name="inst_C0C68F98" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
-    <instance objName="Rock" x="1344" y="960" name="inst_A11F1AF5" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
-    <instance objName="Bush" x="1440" y="1088" name="inst_8C3F197D" locked="0" code="" scaleX="0.5078125" scaleY="0.858823537826538" colour="4294967295" rotation="0"/>
+    <instance objName="Rock" x="1216" y="992" name="inst_C0C68F98" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="Rock" x="1312" y="992" name="inst_A11F1AF5" locked="0" code="" scaleX="0.53125" scaleY="0.375" colour="4294967295" rotation="0"/>
+    <instance objName="Bush" x="1376" y="1120" name="inst_8C3F197D" locked="0" code="" scaleX="0.5078125" scaleY="0.858823537826538" colour="4294967295" rotation="0"/>
     <instance objName="Bush" x="1440" y="1184" name="inst_71F04100" locked="0" code="" scaleX="0.5078125" scaleY="0.858823537826538" colour="4294967295" rotation="0"/>
     <instance objName="Rock" x="1472" y="640" name="inst_3BB8291B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Rock" x="1536" y="1632" name="inst_EBF83C10" locked="0" code="" scaleX="0.3125" scaleY="0.25" colour="4294967295" rotation="0"/>
@@ -303,6 +301,8 @@
     <instance objName="Splosh" x="3488" y="64" name="inst_37F0F879" locked="0" code="" scaleX="4.25" scaleY="3.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3392" y="288" name="inst_E9548309" locked="0" code="" scaleX="7.19354820251465" scaleY="3.09677410125732" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3616" y="288" name="inst_1AF67BAF" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="Budeie" x="128" y="-192" name="inst_AEC513B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Lighting" x="224" y="-224" name="inst_27625359" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

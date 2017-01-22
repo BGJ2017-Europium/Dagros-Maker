@@ -51,12 +51,17 @@
     <sound>sound\jodle3</sound>
     <sound>sound\jodle4</sound>
     <sound>sound\jodle5</sound>
+    <sound>sound\moo1</sound>
+    <sound>sound\moo2</sound>
+    <sound>sound\bell0</sound>
+    <sound>sound\moo0</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_budeie</sprite>
     <sprite>sprites\spr_ku</sprite>
     <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_light_circle</sprite>
+    <sprite>sprites\spr_light_radar</sprite>
     <sprite>sprites\spr_barn</sprite>
     <sprite>sprites\spr_cabin</sprite>
     <sprite>sprites\spr_fence</sprite>
@@ -70,10 +75,12 @@
     </sprites>
     <sprite>sprites\sprite14</sprite>
     <sprite>sprites\spr_black</sprite>
+    <sprite>sprites\woop</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
     <background>background\grassfill</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ambient_light = 0.05;
+            <string>ambient_light = 0;
 
 light_surface = surface_create(view_wview, view_hview);
 
@@ -34,6 +34,63 @@ application_surface_draw_enable(false);
 uniform_ambient = shader_get_uniform(shd_multiply, "u_fAmbient");
 sampler_light = shader_get_sampler_index(shd_multiply, "u_sLight");
 
+self.lightRadius = 1;
+
+singing = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>self.lightRadius = 1;
+singing = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(keyboard_check(vk_rcontrol) || gamepad_button_check(0, gp_face1)){
+    if(alarm[0] &lt;= 0 &amp;&amp; !singing){
+        alarm = 4*30;
+        self.lightRadius = 2;
+        singing = true
+        alph = 1
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -88,7 +145,23 @@ shader_reset();
 draw_clear_alpha(c_black, 1);
 draw_set_blend_mode(bm_add);
 
-draw_sprite_ext(spr_light_circle, 0, Budeie.x, Budeie.y, 1, 1, 0, c_white, 1);
+
+
+budeie = instance_find(Budeie, 0)
+ww = budeie.x/room_width * view_wview;
+wh = budeie.y/room_height * view_hview;
+
+draw_sprite_ext(spr_light_circle, 0, ww, wh, 2*self.lightRadius, 2.9*self.lightRadius, 0, c_white, 1);
+
+if(instance_number(Budeie)&gt;1 &amp;&amp; singing &amp;&amp; alph &gt; 0){
+
+    cow = instance_find(Budeie, 1)
+    ww = cow.x/room_width * view_wview;
+    wh = cow.y/room_height * view_hview;
+    draw_sprite_ext(spr_light_radar, 0, ww, wh, ((1-alph)*6)*2*self.lightRadius/5, ((1-alph)*6)*2.9*self.lightRadius/5, 0, c_white, alph);
+    
+    alph -= 0.02
+}
 
 draw_set_blend_mode(bm_normal);
 surface_reset_target();
